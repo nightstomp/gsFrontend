@@ -26,6 +26,7 @@ require_once(FE_DIR.'/lib/mailer.php');
 // gsales2 data + objects
 require_once(FE_DIR.'/models/gsales/data.php');
 require_once(FE_DIR.'/models/gsales/data.invoice.php');
+require_once(FE_DIR.'/models/gsales/data.offer.php');
 require_once(FE_DIR.'/models/gsales/data.refund.php');
 require_once(FE_DIR.'/models/gsales/data.customer.php');
 require_once(FE_DIR.'/models/gsales/data.contract.php');
@@ -33,6 +34,7 @@ require_once(FE_DIR.'/models/gsales/data.document.php');
 
 require_once(FE_DIR.'/models/gsales/object.php');
 require_once(FE_DIR.'/models/gsales/object.invoice.php');
+require_once(FE_DIR.'/models/gsales/object.offer.php');
 require_once(FE_DIR.'/models/gsales/object.refund.php');
 require_once(FE_DIR.'/models/gsales/object.customer.php');
 require_once(FE_DIR.'/models/gsales/object.contract.php');

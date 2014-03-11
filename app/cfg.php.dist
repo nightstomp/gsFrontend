@@ -40,6 +40,7 @@ define('FRONTEND_SESSION_IDENT','x12kbt5fki9ptru'); // Hier einen eigenen zufäl
 define('FRONTEND_URL','http://www.meinedomain.de/meingsales2frontend'); // URL zum Kundenfrontend ohne Slash am Ende (z.B. http://www.meinedomain.de/meingsales2frontend)
 define('FRONTEND_TITLE','gSales Kundenfrontend'); // Titel des Kundenfrontends
 define('LINK_IMPRINT','http://<yourdomain>/impressum.html'); // URL zu deinem Impressum
+define('LINK_AGB','http://<yourdomain>/agb'); // URL zu deinen AGB
 
 // Emailing
 define('MAIL_TYPE', 'smtp'); // möglich sind smtp, phpmail, qmail, sendmail

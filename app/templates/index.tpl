@@ -41,6 +41,7 @@
 				{if $isuser}
 					<li><a href="{felink controller="mydata" action="index"}"{if $controller == 'mydata'} class="active"{/if}>Kundendaten</a></li>
 					<li><a href="{felink controller="invoice" action="index"}"{if $controller == 'invoice'} class="active"{/if}>Rechnungen</a></li>
+					<li><a href="{felink controller="offer" action="index"}"{if $controller == 'offer'} class="active"{/if}>Angebote</a></li>
 					<li><a href="{felink controller="refund" action="index"}"{if $controller == 'refund'} class="active"{/if}>Gutschriften</a></li>
 					<li><a href="{felink controller="contract" action="index"}"{if $controller == 'contract'} class="active"{/if}>Positionen</a></li>
 					<li><a href="{felink controller="document" action="index"}"{if $controller == 'document'} class="active"{/if}>Dokumente</a></li>
